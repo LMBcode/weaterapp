@@ -1,0 +1,57 @@
+body {
+    background: url('naturebackground.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+input{
+    width: 300px;
+    margin-right: 20px; 
+    height: 30px;
+}
+
+.button {
+    background-color: #808080;    
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.weather_section{
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 700px;
+    height: 30rem;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#tempIcon{
+    height: 200px;
+}
+
+
+
